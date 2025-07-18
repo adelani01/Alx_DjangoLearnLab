@@ -3,6 +3,3 @@
 Learning  Django-based web application
 
 ---
-
-
-
