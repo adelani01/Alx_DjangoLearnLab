@@ -3,6 +3,10 @@
 **Command:**
 
 ```python
+
+# Import the model
+from bookshelf.models import Book
+
 # Retrieve the book with title "Nineteen Eighty-Four"
 book = Book.objects.get(title='Nineteen Eighty-Four')
 
