@@ -7,13 +7,22 @@ from bookshelf.models import Book
 
 # Retrieve all Book instances
 books = Book.objects.all()
-
-# Print each book's details
+print("All books:")
 for book in books:
     print(f"Title: {book.title}")
     print(f"Author: {book.author}")
     print(f"Year: {book.publication_year}")
     print("-" * 30)
+
+# Retrieve a single book with title '1984'
+try:
+    single_book = Book.objects.get(title="1984")
+    print("Single book retrieved:")
+    print(f"Title: {single_book.title}")
+    print(f"Author: {single_book.author}")
+    print(f"Year: {single_book.publication_year}")
+except Book.DoesNotExist:
+    print("Book with title '1984' not found.")
 ```
 
 
