@@ -1,13 +1,10 @@
-#  LibraryProject — Learning Django
+# LibraryProject
 
-This is a beginner-friendly Django project created for learning purposes as part of the **Alx Django Learn Lab**. It introduces the core concepts of Django including project setup, models, admin customization, and app structure.
----
+This is a basic Django project created for learning purposes.
 
-## Objectives
+## How to Run
+1. Install Django using `pip install django`.
+2. Navigate to the project folder.
+3. Run the server using `python manage.py runserver`.
+4. Open http://127.0.0.1:8000/ in your browser to view the default Django page.
 
-- Understand Django's project and app structure
-- Create and manage models using Django ORM
-- Customize the Django admin interface
-- Explore migrations and model relationships
-- Practice building apps using Django’s best practices
----
